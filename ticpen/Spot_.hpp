@@ -11,7 +11,7 @@
 
 #include <string>
 #include <stdio.h>
-#include "GeoData.h"
+#include "GeoData.hpp"
 
 namespace tpn {
     class Spot_ {
@@ -22,19 +22,28 @@ namespace tpn {
         Spot_ (const int pId);
         
         /////////////////////////////
-        // ** Getters and setters **
+        // ** Getters **
         /////////////////////////////
+        
+        /////////////////////////////
+        // ** Setters **
+        /////////////////////////////
+        void setGeo(tpn::GeoData pGeo);
+        void setName(std::string pName);
+        void setImg_url(std::string pURL);
+        void setLike(bool pLike);
+        
         
     private:
         /////////////////////////////
         // ** Fields **
         /////////////////////////////
-        int mId;
-        std::string mName;
-        std::string mImg_fname;
-        std::string mImg_url;
-        GeoData mGeo;
-        bool mLike;
+        int mId;                // スポットID
+        std::string mName;      // スポット名
+        std::string mImg_fname; // キャッシュファイル名
+        std::string mImg_url;   // 画像URL
+        GeoData mGeo;           // GPSデータ，緯度経度
+        bool mLike;             // Likeしたかどうか？
         
         /////////////////////////////
         // ** Methods **

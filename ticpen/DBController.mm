@@ -7,13 +7,35 @@
 //
 
 #import "DBController.h"
-//#import "FMDB.h"
+#import "FMDB.h"
+#import "SystemParams.h"
 #include "Spot_.h"
 
 @implementation DBController
 
 - (tpn::Spot_) getAllColumns:(int)pId {
-    return tpn::Spot_(1);
+    tpn::Spot_ Spot_(pId);
+    
+    // DBの読み込み
+    NSArray *paths = NSSearchPathForDirectoriesInDomains( NSDocumentDirectory, NSUserDomainMask, YES );
+    NSString *dir = [paths objectAtIndex:0];
+    
+    FMDatabase *db = [FMDatabase databaseWithPath:[dir stringByAppendingPathComponent:DB_NAME]];
+    NSString *select = @"select * from TABLE_NAME";
+    [db open];
+    
+    //クエリの実行
+    FMResultSet *rs = [db executeQuery:select];
+    while([rs next]) {
+        for (int i=0;i<7;i++)
+            NSLog(@"%@",[rs stringForColumnIndex:i]);
+    }
+    
+    //[db executeUpdate:sql];
+    [db close];
+
+    
+    return Spot_;
 }
 
 /*

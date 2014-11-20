@@ -1,9 +1,14 @@
 //
-//  GeoData.cpp
+//  Spot.m
 //  ticpen
 //
 //  Created by ポイフル on 2014/11/20.
 //  Copyright (c) 2014年 KUISAP. All rights reserved.
 //
 
-#include "GeoData.hpp"
+#include "Spot_.hpp"
+#import "Spot.h"
+
+@implementation Spot
+
+@end

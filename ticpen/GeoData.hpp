@@ -26,6 +26,6 @@ namespace tpn {
         double mLatitudo;   //緯度
         double mLongitudo;  //経度
     };
-}
+};
 
 #endif /* defined(__ticpen__GeoData__) */

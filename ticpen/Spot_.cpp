@@ -11,7 +11,7 @@
 //  Spotクラスを使うこと
 
 #include <string>
-#include "Spot_.h"
+#include "Spot_.hpp"
 
 tpn::Spot_::Spot_ (const int pId) {
     
