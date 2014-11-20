@@ -9,12 +9,13 @@
 #import "DBController.h"
 #import "FMDB.h"
 #import "SystemParams.h"
-#include "Spot_.h"
+#import "Spot.h"
+//#include "Spot_.h"
 
 @implementation DBController
 
-- (tpn::Spot_) getAllColumns:(int)pId {
-    tpn::Spot_ Spot_(pId);
+- (Spot *) getAllColumns:(int)pId {
+    Spot * spot = [[Spot alloc] init:pId];
     
     // DBの読み込み
     NSArray *paths = NSSearchPathForDirectoriesInDomains( NSDocumentDirectory, NSUserDomainMask, YES );
@@ -35,7 +36,7 @@
     [db close];
 
     
-    return Spot_;
+    return spot;
 }
 
 /*

@@ -6,12 +6,11 @@
 //  Copyright (c) 2014年 KUISAP. All rights reserved.
 //
 
-#include "Spot_.h"
 #import <Foundation/Foundation.h>
-
+#import "Spot.h"
 
 @interface DBController : NSObject
 
-- (tpn::Spot_) getAllColumns : (int) pId;
+- (Spot*) getAllColumns : (int) pId;
 
 @end

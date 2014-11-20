@@ -6,8 +6,14 @@
 //  Copyright (c) 2014年 KUISAP. All rights reserved.
 //
 
+//#include "Spot_.hpp"
 #import <Foundation/Foundation.h>
 
 @interface Spot : NSObject
+@property (assign) int mId;
+
+
+- (id) init : (int) pId;
+
 
 @end

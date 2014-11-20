@@ -14,9 +14,9 @@
 		3F5097A01A1D8568007B91BD /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5097981A1D8568007B91BD /* FMDatabasePool.m */; };
 		3F5097A11A1D8568007B91BD /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F50979A1A1D8568007B91BD /* FMDatabaseQueue.m */; };
 		3F5097A21A1D8568007B91BD /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F50979D1A1D8568007B91BD /* FMResultSet.m */; };
-		3F5097A51A1D893A007B91BD /* DBController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3F5097A41A1D893A007B91BD /* DBController.mm */; };
+		3F5097A51A1D893A007B91BD /* DBController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5097A41A1D893A007B91BD /* DBController.m */; };
 		3F5097A71A1D966F007B91BD /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5097A61A1D966F007B91BD /* libsqlite3.0.dylib */; };
-		3F5097AB1A1D9F62007B91BD /* Spot.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3F5097AA1A1D9F62007B91BD /* Spot.mm */; };
+		3F5097AB1A1D9F62007B91BD /* Spot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5097AA1A1D9F62007B91BD /* Spot.m */; };
 		A22677871A1C569C00BD07C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A22677861A1C569C00BD07C0 /* main.m */; };
 		A226778A1A1C569C00BD07C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A22677891A1C569C00BD07C0 /* AppDelegate.m */; };
 		A226778D1A1C569C00BD07C0 /* ticpen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A226778B1A1C569C00BD07C0 /* ticpen.xcdatamodeld */; };
@@ -55,11 +55,11 @@
 		3F50979C1A1D8568007B91BD /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		3F50979D1A1D8568007B91BD /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		3F5097A31A1D893A007B91BD /* DBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBController.h; sourceTree = "<group>"; };
-		3F5097A41A1D893A007B91BD /* DBController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DBController.mm; sourceTree = "<group>"; };
+		3F5097A41A1D893A007B91BD /* DBController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBController.m; sourceTree = "<group>"; };
 		3F5097A61A1D966F007B91BD /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		3F5097A81A1D9DDE007B91BD /* SystemParams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemParams.h; sourceTree = "<group>"; };
 		3F5097A91A1D9F62007B91BD /* Spot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spot.h; sourceTree = "<group>"; };
-		3F5097AA1A1D9F62007B91BD /* Spot.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Spot.mm; sourceTree = "<group>"; };
+		3F5097AA1A1D9F62007B91BD /* Spot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spot.m; sourceTree = "<group>"; };
 		A22677811A1C569C00BD07C0 /* ticpen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ticpen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22677851A1C569C00BD07C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A22677861A1C569C00BD07C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -154,10 +154,10 @@
 				3F50977F1A1D11B4007B91BD /* GeoData.cpp */,
 				3F5097801A1D11B4007B91BD /* GeoData.hpp */,
 				3F5097A31A1D893A007B91BD /* DBController.h */,
-				3F5097A41A1D893A007B91BD /* DBController.mm */,
+				3F5097A41A1D893A007B91BD /* DBController.m */,
 				3F5097A81A1D9DDE007B91BD /* SystemParams.h */,
 				3F5097A91A1D9F62007B91BD /* Spot.h */,
-				3F5097AA1A1D9F62007B91BD /* Spot.mm */,
+				3F5097AA1A1D9F62007B91BD /* Spot.m */,
 			);
 			path = ticpen;
 			sourceTree = "<group>";
@@ -289,7 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A22677931A1C569C00BD07C0 /* DetailViewController.m in Sources */,
-				3F5097AB1A1D9F62007B91BD /* Spot.mm in Sources */,
+				3F5097AB1A1D9F62007B91BD /* Spot.m in Sources */,
 				3F5097811A1D11B4007B91BD /* GeoData.cpp in Sources */,
 				A22677901A1C569C00BD07C0 /* MasterViewController.m in Sources */,
 				A226778D1A1C569C00BD07C0 /* ticpen.xcdatamodeld in Sources */,
@@ -299,7 +299,7 @@
 				A226778A1A1C569C00BD07C0 /* AppDelegate.m in Sources */,
 				3F5097A01A1D8568007B91BD /* FMDatabasePool.m in Sources */,
 				3F5097A11A1D8568007B91BD /* FMDatabaseQueue.m in Sources */,
-				3F5097A51A1D893A007B91BD /* DBController.mm in Sources */,
+				3F5097A51A1D893A007B91BD /* DBController.m in Sources */,
 				A22677871A1C569C00BD07C0 /* main.m in Sources */,
 				3F50979E1A1D8568007B91BD /* FMDatabase.m in Sources */,
 			);

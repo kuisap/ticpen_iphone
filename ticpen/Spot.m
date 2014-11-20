@@ -6,9 +6,17 @@
 //  Copyright (c) 2014年 KUISAP. All rights reserved.
 //
 
-#include "Spot_.hpp"
+//#include "Spot_.hpp"
 #import "Spot.h"
 
 @implementation Spot
+
+
+- (id) init:(int)pId {
+    
+    
+    
+    return self;
+}
 
 @end
