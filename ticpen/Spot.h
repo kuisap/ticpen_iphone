@@ -11,6 +11,9 @@
 
 @interface Spot : NSObject
 @property (assign) int mId;
+@property NSString* mName;
+@property NSString* mImg_url;
+
 
 
 - (id) init : (int) pId;

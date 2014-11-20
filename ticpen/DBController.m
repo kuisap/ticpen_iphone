@@ -8,12 +8,16 @@
 
 #import "DBController.h"
 #import "FMDB.h"
-#import "SystemParams.h"
 #import "Spot.h"
-//#include "Spot_.h"
+
+#define DB_NAME @""
 
 @implementation DBController
 
+
+/**
+        テーブル名・カラム数を実際のDBファイルに沿って変更すること
+ **/
 - (Spot *) getAllColumns:(int)pId {
     Spot * spot = [[Spot alloc] init:pId];
     
@@ -22,19 +26,19 @@
     NSString *dir = [paths objectAtIndex:0];
     
     FMDatabase *db = [FMDatabase databaseWithPath:[dir stringByAppendingPathComponent:DB_NAME]];
-    NSString *select = @"select * from TABLE_NAME";
+    NSString *select = [NSString stringWithFormat:@"select * from TABLE_NAME where id = %d", pId];
     [db open];
     
     //クエリの実行
     FMResultSet *rs = [db executeQuery:select];
     while([rs next]) {
-        for (int i=0;i<7;i++)
+        for (int i=0;i<7;i++){
             NSLog(@"%@",[rs stringForColumnIndex:i]);
+        }
     }
     
     //[db executeUpdate:sql];
     [db close];
-
     
     return spot;
 }

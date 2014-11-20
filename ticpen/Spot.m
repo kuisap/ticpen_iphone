@@ -13,10 +13,11 @@
 
 
 - (id) init:(int)pId {
-    
-    
+    self.mId = pId;
     
     return self;
 }
+
+
 
 @end

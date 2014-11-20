@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F50977E1A1D0C7D007B91BD /* Spot_.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F50977C1A1D0C7D007B91BD /* Spot_.cpp */; };
-		3F5097811A1D11B4007B91BD /* GeoData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F50977F1A1D11B4007B91BD /* GeoData.cpp */; };
 		3F50979E1A1D8568007B91BD /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5097941A1D8568007B91BD /* FMDatabase.m */; };
 		3F50979F1A1D8568007B91BD /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5097961A1D8568007B91BD /* FMDatabaseAdditions.m */; };
 		3F5097A01A1D8568007B91BD /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5097981A1D8568007B91BD /* FMDatabasePool.m */; };
@@ -17,6 +15,7 @@
 		3F5097A51A1D893A007B91BD /* DBController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5097A41A1D893A007B91BD /* DBController.m */; };
 		3F5097A71A1D966F007B91BD /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5097A61A1D966F007B91BD /* libsqlite3.0.dylib */; };
 		3F5097AB1A1D9F62007B91BD /* Spot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5097AA1A1D9F62007B91BD /* Spot.m */; };
+		3F5097AE1A1E012B007B91BD /* SpotAlignmenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5097AD1A1E012B007B91BD /* SpotAlignmenter.m */; };
 		A22677871A1C569C00BD07C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A22677861A1C569C00BD07C0 /* main.m */; };
 		A226778A1A1C569C00BD07C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A22677891A1C569C00BD07C0 /* AppDelegate.m */; };
 		A226778D1A1C569C00BD07C0 /* ticpen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A226778B1A1C569C00BD07C0 /* ticpen.xcdatamodeld */; };
@@ -39,10 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F50977C1A1D0C7D007B91BD /* Spot_.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Spot_.cpp; sourceTree = "<group>"; };
-		3F50977D1A1D0C7D007B91BD /* Spot_.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Spot_.hpp; sourceTree = "<group>"; };
-		3F50977F1A1D11B4007B91BD /* GeoData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeoData.cpp; sourceTree = "<group>"; };
-		3F5097801A1D11B4007B91BD /* GeoData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GeoData.hpp; sourceTree = "<group>"; };
 		3F5097931A1D8568007B91BD /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		3F5097941A1D8568007B91BD /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
 		3F5097951A1D8568007B91BD /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
@@ -57,9 +52,10 @@
 		3F5097A31A1D893A007B91BD /* DBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBController.h; sourceTree = "<group>"; };
 		3F5097A41A1D893A007B91BD /* DBController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBController.m; sourceTree = "<group>"; };
 		3F5097A61A1D966F007B91BD /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		3F5097A81A1D9DDE007B91BD /* SystemParams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemParams.h; sourceTree = "<group>"; };
 		3F5097A91A1D9F62007B91BD /* Spot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spot.h; sourceTree = "<group>"; };
 		3F5097AA1A1D9F62007B91BD /* Spot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spot.m; sourceTree = "<group>"; };
+		3F5097AC1A1E012B007B91BD /* SpotAlignmenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotAlignmenter.h; sourceTree = "<group>"; };
+		3F5097AD1A1E012B007B91BD /* SpotAlignmenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotAlignmenter.m; sourceTree = "<group>"; };
 		A22677811A1C569C00BD07C0 /* ticpen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ticpen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22677851A1C569C00BD07C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A22677861A1C569C00BD07C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -149,15 +145,12 @@
 				A22677991A1C569C00BD07C0 /* LaunchScreen.xib */,
 				A226778B1A1C569C00BD07C0 /* ticpen.xcdatamodeld */,
 				A22677841A1C569C00BD07C0 /* Supporting Files */,
-				3F50977C1A1D0C7D007B91BD /* Spot_.cpp */,
-				3F50977D1A1D0C7D007B91BD /* Spot_.hpp */,
-				3F50977F1A1D11B4007B91BD /* GeoData.cpp */,
-				3F5097801A1D11B4007B91BD /* GeoData.hpp */,
 				3F5097A31A1D893A007B91BD /* DBController.h */,
 				3F5097A41A1D893A007B91BD /* DBController.m */,
-				3F5097A81A1D9DDE007B91BD /* SystemParams.h */,
 				3F5097A91A1D9F62007B91BD /* Spot.h */,
 				3F5097AA1A1D9F62007B91BD /* Spot.m */,
+				3F5097AC1A1E012B007B91BD /* SpotAlignmenter.h */,
+				3F5097AD1A1E012B007B91BD /* SpotAlignmenter.m */,
 			);
 			path = ticpen;
 			sourceTree = "<group>";
@@ -290,10 +283,9 @@
 			files = (
 				A22677931A1C569C00BD07C0 /* DetailViewController.m in Sources */,
 				3F5097AB1A1D9F62007B91BD /* Spot.m in Sources */,
-				3F5097811A1D11B4007B91BD /* GeoData.cpp in Sources */,
 				A22677901A1C569C00BD07C0 /* MasterViewController.m in Sources */,
 				A226778D1A1C569C00BD07C0 /* ticpen.xcdatamodeld in Sources */,
-				3F50977E1A1D0C7D007B91BD /* Spot_.cpp in Sources */,
+				3F5097AE1A1E012B007B91BD /* SpotAlignmenter.m in Sources */,
 				3F50979F1A1D8568007B91BD /* FMDatabaseAdditions.m in Sources */,
 				3F5097A21A1D8568007B91BD /* FMResultSet.m in Sources */,
 				A226778A1A1C569C00BD07C0 /* AppDelegate.m in Sources */,
