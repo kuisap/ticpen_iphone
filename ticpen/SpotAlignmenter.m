@@ -12,10 +12,9 @@
 
 - (id) init : (int) pArraySize {
     self.pointer = 0;
-    
     // ひとまずキャッシュは考えずに…
-    
-    
     return self;
 }
+
+
 @end

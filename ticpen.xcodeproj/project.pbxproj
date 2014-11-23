@@ -16,6 +16,8 @@
 		3F5097A71A1D966F007B91BD /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5097A61A1D966F007B91BD /* libsqlite3.0.dylib */; };
 		3F5097AB1A1D9F62007B91BD /* Spot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5097AA1A1D9F62007B91BD /* Spot.m */; };
 		3F5097AE1A1E012B007B91BD /* SpotAlignmenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5097AD1A1E012B007B91BD /* SpotAlignmenter.m */; };
+		3FA9BEE31A21C4B500952A51 /* Exp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9BEE21A21C4B500952A51 /* Exp.storyboard */; };
+		3FA9BEE61A21C4E300952A51 /* ExpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9BEE51A21C4E300952A51 /* ExpViewController.m */; };
 		A22677871A1C569C00BD07C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A22677861A1C569C00BD07C0 /* main.m */; };
 		A226778A1A1C569C00BD07C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A22677891A1C569C00BD07C0 /* AppDelegate.m */; };
 		A226778D1A1C569C00BD07C0 /* ticpen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A226778B1A1C569C00BD07C0 /* ticpen.xcdatamodeld */; };
@@ -56,6 +58,9 @@
 		3F5097AA1A1D9F62007B91BD /* Spot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spot.m; sourceTree = "<group>"; };
 		3F5097AC1A1E012B007B91BD /* SpotAlignmenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotAlignmenter.h; sourceTree = "<group>"; };
 		3F5097AD1A1E012B007B91BD /* SpotAlignmenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotAlignmenter.m; sourceTree = "<group>"; };
+		3FA9BEE21A21C4B500952A51 /* Exp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Exp.storyboard; sourceTree = "<group>"; };
+		3FA9BEE41A21C4E300952A51 /* ExpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpViewController.h; sourceTree = "<group>"; };
+		3FA9BEE51A21C4E300952A51 /* ExpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpViewController.m; sourceTree = "<group>"; };
 		A22677811A1C569C00BD07C0 /* ticpen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ticpen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22677851A1C569C00BD07C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A22677861A1C569C00BD07C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -151,6 +156,9 @@
 				3F5097AA1A1D9F62007B91BD /* Spot.m */,
 				3F5097AC1A1E012B007B91BD /* SpotAlignmenter.h */,
 				3F5097AD1A1E012B007B91BD /* SpotAlignmenter.m */,
+				3FA9BEE21A21C4B500952A51 /* Exp.storyboard */,
+				3FA9BEE41A21C4E300952A51 /* ExpViewController.h */,
+				3FA9BEE51A21C4E300952A51 /* ExpViewController.m */,
 			);
 			path = ticpen;
 			sourceTree = "<group>";
@@ -263,6 +271,7 @@
 			files = (
 				A22677961A1C569C00BD07C0 /* Main.storyboard in Resources */,
 				A226779B1A1C569C00BD07C0 /* LaunchScreen.xib in Resources */,
+				3FA9BEE31A21C4B500952A51 /* Exp.storyboard in Resources */,
 				A22677981A1C569C00BD07C0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +294,7 @@
 				3F5097AB1A1D9F62007B91BD /* Spot.m in Sources */,
 				A22677901A1C569C00BD07C0 /* MasterViewController.m in Sources */,
 				A226778D1A1C569C00BD07C0 /* ticpen.xcdatamodeld in Sources */,
+				3FA9BEE61A21C4E300952A51 /* ExpViewController.m in Sources */,
 				3F5097AE1A1E012B007B91BD /* SpotAlignmenter.m in Sources */,
 				3F50979F1A1D8568007B91BD /* FMDatabaseAdditions.m in Sources */,
 				3F5097A21A1D8568007B91BD /* FMResultSet.m in Sources */,
