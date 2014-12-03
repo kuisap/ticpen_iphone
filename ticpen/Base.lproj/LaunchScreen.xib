@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -16,39 +16,23 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="TicPen.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ey1-Rw-iRL">
-                    <rect key="frame" x="182" y="220" width="116" height="39"/>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="TicPen.png" translatesAutoresizingMaskIntoConstraints="NO" id="F7O-tD-vgP">
+                    <rect key="frame" x="182" y="221" width="116" height="39"/>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" red="0.014725534539473673" green="0.42130962171052633" blue="0.54790296052631571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.015686274509803921" green="0.3529411764705882" blue="0.5490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstAttribute="centerY" secondItem="Ey1-Rw-iRL" secondAttribute="centerY" id="GgG-px-J7j"/>
+                <constraint firstAttribute="centerX" secondItem="F7O-tD-vgP" secondAttribute="centerX" id="F3h-3T-2zs"/>
                 <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
                 <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
+                <constraint firstAttribute="centerY" secondItem="F7O-tD-vgP" secondAttribute="centerY" id="Sy3-Rl-JpK"/>
                 <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
-                <constraint firstAttribute="centerY" secondItem="Ey1-Rw-iRL" secondAttribute="centerY" id="c8w-Lv-8aW"/>
-                <constraint firstAttribute="centerY" secondItem="Ey1-Rw-iRL" secondAttribute="centerY" id="f7J-FC-y7x"/>
-                <constraint firstAttribute="centerY" secondItem="Ey1-Rw-iRL" secondAttribute="centerY" id="fcf-cT-R8r"/>
-                <constraint firstAttribute="centerX" secondItem="Ey1-Rw-iRL" secondAttribute="centerX" id="hU7-iC-1s8"/>
-                <constraint firstAttribute="centerX" secondItem="Ey1-Rw-iRL" secondAttribute="centerX" id="jal-3X-UWj"/>
-                <constraint firstAttribute="centerY" secondItem="Ey1-Rw-iRL" secondAttribute="centerY" id="ks2-Kg-lug"/>
-                <constraint firstAttribute="centerX" secondItem="Ey1-Rw-iRL" secondAttribute="centerX" id="seI-Tq-vjg"/>
-                <constraint firstAttribute="centerX" secondItem="Ey1-Rw-iRL" secondAttribute="centerX" id="vBq-MU-eqY"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <variation key="default">
                 <mask key="subviews">
                     <exclude reference="8ie-xW-0ye"/>
-                </mask>
-                <mask key="constraints">
-                    <exclude reference="GgG-px-J7j"/>
-                    <exclude reference="f7J-FC-y7x"/>
-                    <exclude reference="fcf-cT-R8r"/>
-                    <exclude reference="jal-3X-UWj"/>
-                    <exclude reference="ks2-Kg-lug"/>
-                    <exclude reference="seI-Tq-vjg"/>
-                    <exclude reference="vBq-MU-eqY"/>
                 </mask>
             </variation>
             <point key="canvasLocation" x="548" y="455"/>

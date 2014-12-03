@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A22677871A1C569C00BD07C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A22677861A1C569C00BD07C0 /* main.m */; };
 		A226778A1A1C569C00BD07C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A22677891A1C569C00BD07C0 /* AppDelegate.m */; };
 		A226778D1A1C569C00BD07C0 /* ticpen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A226778B1A1C569C00BD07C0 /* ticpen.xcdatamodeld */; };
 		A22677961A1C569C00BD07C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22677941A1C569C00BD07C0 /* Main.storyboard */; };
@@ -25,6 +24,10 @@
 		A270BEEB1A1EE8F100F109AE /* Location_Dot.png in Resources */ = {isa = PBXBuildFile; fileRef = A270BEDF1A1EE8F100F109AE /* Location_Dot.png */; };
 		A270BEEC1A1EE8F100F109AE /* map_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A270BEE01A1EE8F100F109AE /* map_icon.png */; };
 		A270BEED1A1EE8F100F109AE /* TicPen.png in Resources */ = {isa = PBXBuildFile; fileRef = A270BEE11A1EE8F100F109AE /* TicPen.png */; };
+		A28513641A2EF218003478B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A28513631A2EF218003478B4 /* ViewController.m */; };
+		A28513681A2EF3C8003478B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A28513671A2EF3C8003478B4 /* main.m */; };
+		A285136A1A2EF4C9003478B4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28513691A2EF4C9003478B4 /* MapKit.framework */; };
+		A285136C1A2EF4D2003478B4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A285136B1A2EF4D2003478B4 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 
 /* Begin PBXFileReference section */
 		A22677811A1C569C00BD07C0 /* ticpen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ticpen.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A22677851A1C569C00BD07C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A22677861A1C569C00BD07C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A22677881A1C569C00BD07C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A22677891A1C569C00BD07C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A226778C1A1C569C00BD07C0 /* ticpen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ticpen.xcdatamodel; sourceTree = "<group>"; };
@@ -61,6 +62,11 @@
 		A270BEDF1A1EE8F100F109AE /* Location_Dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Location_Dot.png; sourceTree = "<group>"; };
 		A270BEE01A1EE8F100F109AE /* map_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_icon.png; sourceTree = "<group>"; };
 		A270BEE11A1EE8F100F109AE /* TicPen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TicPen.png; sourceTree = "<group>"; };
+		A28513621A2EF218003478B4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A28513631A2EF218003478B4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A28513671A2EF3C8003478B4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A28513691A2EF4C9003478B4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A285136B1A2EF4D2003478B4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A285136C1A2EF4D2003478B4 /* CoreLocation.framework in Frameworks */,
+				A285136A1A2EF4C9003478B4 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +92,8 @@
 		A22677781A1C569C00BD07C0 = {
 			isa = PBXGroup;
 			children = (
+				A285136B1A2EF4D2003478B4 /* CoreLocation.framework */,
+				A28513691A2EF4C9003478B4 /* MapKit.framework */,
 				A270BEEE1A1EE90000F109AE /* images */,
 				A22677831A1C569C00BD07C0 /* ticpen */,
 				A22677A31A1C569C00BD07C0 /* ticpenTests */,
@@ -106,20 +116,13 @@
 				A22677881A1C569C00BD07C0 /* AppDelegate.h */,
 				A22677891A1C569C00BD07C0 /* AppDelegate.m */,
 				A22677941A1C569C00BD07C0 /* Main.storyboard */,
+				A28513671A2EF3C8003478B4 /* main.m */,
+				A28513621A2EF218003478B4 /* ViewController.h */,
+				A28513631A2EF218003478B4 /* ViewController.m */,
 				A22677991A1C569C00BD07C0 /* LaunchScreen.xib */,
 				A226778B1A1C569C00BD07C0 /* ticpen.xcdatamodeld */,
-				A22677841A1C569C00BD07C0 /* Supporting Files */,
 			);
 			path = ticpen;
-			sourceTree = "<group>";
-		};
-		A22677841A1C569C00BD07C0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A22677851A1C569C00BD07C0 /* Info.plist */,
-				A22677861A1C569C00BD07C0 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		A22677A31A1C569C00BD07C0 /* ticpenTests */ = {
@@ -271,7 +274,8 @@
 			files = (
 				A226778D1A1C569C00BD07C0 /* ticpen.xcdatamodeld in Sources */,
 				A226778A1A1C569C00BD07C0 /* AppDelegate.m in Sources */,
-				A22677871A1C569C00BD07C0 /* main.m in Sources */,
+				A28513681A2EF3C8003478B4 /* main.m in Sources */,
+				A28513641A2EF218003478B4 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
