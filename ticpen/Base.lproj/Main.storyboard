@@ -1,40 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="FPf-vu-Ly3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="soJ-0D-yoQ">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--TicPen-->
-        <scene sceneID="ahO-fT-Nig">
+        <scene sceneID="5bu-we-5Qv">
             <objects>
-                <viewController id="4SM-6C-GP4" sceneMemberID="viewController">
-                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="ofn-Ll-IO4">
+                <viewController id="NDJ-e2-N6q" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vK3-oI-qzB"/>
+                        <viewControllerLayoutGuide type="bottom" id="NaE-fO-JKq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Y6h-X9-kWE">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    </mapView>
-                    <navigationItem key="navigationItem" title="TicPen" id="WOi-hO-biL"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="6KT-Ib-E92">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="340"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="TicPen" id="wal-PV-F4O"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cxb-iq-vsR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bxN-6e-8MQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="491" y="-590"/>
+            <point key="canvasLocation" x="1364" y="-590"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="ivS-fb-38g">
+        <scene sceneID="OtB-7t-0Dh">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FPf-vu-Ly3" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="soJ-0D-yoQ" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tlG-iG-VaL">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ac8-rd-3oe">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="4SM-6C-GP4" kind="relationship" relationship="rootViewController" id="61C-jB-YwQ"/>
+                        <segue destination="NDJ-e2-N6q" kind="relationship" relationship="rootViewController" id="mkB-N4-Kdn"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NQe-n2-nkb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pOp-jH-U0i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-321" y="-590"/>
+            <point key="canvasLocation" x="552" y="-590"/>
         </scene>
     </scenes>
 </document>
