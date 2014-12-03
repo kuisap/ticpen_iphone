@@ -10,8 +10,6 @@
 		A22677871A1C569C00BD07C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A22677861A1C569C00BD07C0 /* main.m */; };
 		A226778A1A1C569C00BD07C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A22677891A1C569C00BD07C0 /* AppDelegate.m */; };
 		A226778D1A1C569C00BD07C0 /* ticpen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A226778B1A1C569C00BD07C0 /* ticpen.xcdatamodeld */; };
-		A22677901A1C569C00BD07C0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A226778F1A1C569C00BD07C0 /* MasterViewController.m */; };
-		A22677931A1C569C00BD07C0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A22677921A1C569C00BD07C0 /* DetailViewController.m */; };
 		A22677961A1C569C00BD07C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22677941A1C569C00BD07C0 /* Main.storyboard */; };
 		A226779B1A1C569C00BD07C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22677991A1C569C00BD07C0 /* LaunchScreen.xib */; };
 		A22677A71A1C569C00BD07C0 /* ticpenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A22677A61A1C569C00BD07C0 /* ticpenTests.m */; };
@@ -46,10 +44,6 @@
 		A22677881A1C569C00BD07C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A22677891A1C569C00BD07C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A226778C1A1C569C00BD07C0 /* ticpen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ticpen.xcdatamodel; sourceTree = "<group>"; };
-		A226778E1A1C569C00BD07C0 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		A226778F1A1C569C00BD07C0 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		A22677911A1C569C00BD07C0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		A22677921A1C569C00BD07C0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		A22677951A1C569C00BD07C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A226779A1A1C569C00BD07C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A22677A01A1C569C00BD07C0 /* ticpenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ticpenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,10 +105,6 @@
 			children = (
 				A22677881A1C569C00BD07C0 /* AppDelegate.h */,
 				A22677891A1C569C00BD07C0 /* AppDelegate.m */,
-				A226778E1A1C569C00BD07C0 /* MasterViewController.h */,
-				A226778F1A1C569C00BD07C0 /* MasterViewController.m */,
-				A22677911A1C569C00BD07C0 /* DetailViewController.h */,
-				A22677921A1C569C00BD07C0 /* DetailViewController.m */,
 				A22677941A1C569C00BD07C0 /* Main.storyboard */,
 				A22677991A1C569C00BD07C0 /* LaunchScreen.xib */,
 				A226778B1A1C569C00BD07C0 /* ticpen.xcdatamodeld */,
@@ -279,8 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A22677931A1C569C00BD07C0 /* DetailViewController.m in Sources */,
-				A22677901A1C569C00BD07C0 /* MasterViewController.m in Sources */,
 				A226778D1A1C569C00BD07C0 /* ticpen.xcdatamodeld in Sources */,
 				A226778A1A1C569C00BD07C0 /* AppDelegate.m in Sources */,
 				A22677871A1C569C00BD07C0 /* main.m in Sources */,

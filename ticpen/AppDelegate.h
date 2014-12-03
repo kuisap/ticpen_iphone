@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  ticpen
+//  test
 //
-//  Created by T.KADOWAKI on 2014/11/19.
+//  Created by T.KADOWAKI on 2014/12/03.
 //  Copyright (c) 2014年 KUISAP. All rights reserved.
 //
 
